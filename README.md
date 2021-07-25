@@ -9,11 +9,11 @@ save enter and store in local storage
 When refresh the save data should still be on the schedule
 
 #### Mock UP ####
-![](./assets/images/required.PNG)
-![](./assets/images/required1.PNG)
+[](./assets/images/required.PNG)
+[](./assets/images/required1.PNG)
 
 ## Final Project
-![my project](./assets/images/mypage.PNG)
+[Image of my project](./assets/images/mypage.PNG)
 
 # Deploying my Project
 [My Project](https://jahneo.github.io/Work-_Day_Scheduler)
