@@ -16,7 +16,7 @@ When refresh the save data should still be on the schedule
 ![Image of my project](./assets/images/mypage.PNG)
 
 # Deploying my Project
-[My Project](https://jahneo.github.io/Work-_Day_Scheduler)
+[My Project](https://jahneo.github.io/Work_Day_Scheduler)
 
 ### Issues and problems
 Not too verse on how to loop a function to get items stores in local storage.
