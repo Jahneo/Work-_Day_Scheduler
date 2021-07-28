@@ -5,11 +5,11 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
     $("#currentDay").html(todayDate);
 
     //Print date on console debugging tips
-    console.log(todayDate);
+    //console.log(todayDate);
 
     // calling the function that allows the page to be manipulated
     $(document).ready(function () {
-    console.log("ready");
+    //console.log("ready");
     
     // listen for saveBtn to be clicked 
     $(".saveBtn").on("click", function () {
