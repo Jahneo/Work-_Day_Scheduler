@@ -1,15 +1,15 @@
 // create variable to display  current date
-var todayDate = moment().format('dddd, MMMM Do YYYY');
+var todayDate = moment().format('dddd, MMM Do YYYY');
 
     // Display today's day 
     $("#currentDay").html(todayDate);
 
     //Print date on console debugging tips
-    //console.log(todayDate);
+    console.log(todayDate);
 
     // calling the function that allows the page to be manipulated
     $(document).ready(function () {
-    //console.log("ready");
+    console.log("ready");
     
     // listen for saveBtn to be clicked 
     $(".saveBtn").on("click", function () {
@@ -52,7 +52,7 @@ var todayDate = moment().format('dddd, MMMM Do YYYY');
             }
         });
     }
-keepTrackONTime();
+
 
 
     // Get item from local storage if any
