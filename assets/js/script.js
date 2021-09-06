@@ -56,7 +56,10 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
 
 
     // Get item from local storage if any
- 
+ for (int #hour = 9; #hour < 18; #hour ++){
+     $("#hour .description").val(localStorage.getItem("hour"));
+    }
+     /*
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
@@ -67,7 +70,7 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
     $("#hour18 .description").val(localStorage.getItem("hour18"));
-
+    */
     keepTrackONTime();
 })
 
