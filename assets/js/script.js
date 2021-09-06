@@ -57,7 +57,7 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
 
     // Get item from local storage if any using for loop
  for (int #hour = 9; #hour < 18; #hour ++){
-     $("#hour .description").val(localStorage.getItem("hour"));
+     $("#hour.description").val(localStorage.getItem("hour"));
      //console.log("#hour .description /n");
     }
    
