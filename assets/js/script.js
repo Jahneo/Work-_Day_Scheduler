@@ -55,6 +55,8 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
     }
 
 
+     $("#hour9.description").val(localStorage.getItem("#hour9"));
+     $("#hour10.description").val(localStorage.getItem("#hour10"));
 
  
    
