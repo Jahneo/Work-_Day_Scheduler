@@ -20,6 +20,7 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
 
          // Save text in local storage
         localStorage.setItem(time, task);
+        localStorage.getItem(time.task);
     })
    
     // function to track time which will allow backgrounds to 
@@ -55,11 +56,7 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
 
 
 
-    // Get item from local storage if any using for loop
- for (int #hour = 9; #hour < 18; #hour ++){
-     $("#hour.description").val(localStorage.getItem("hour"));
-     //console.log("#hour .description /n");
-    }
+ 
    
     keepTrackONTime();
 })
