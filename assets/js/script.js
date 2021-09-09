@@ -22,7 +22,7 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
         localStorage.setItem(time, task);
         
     })
-   localStorage.getItem(time.task);
+  
     // function to track time which will allow backgrounds to 
     // change for present past and future timeblocks
     function keepTrackONTime() {
